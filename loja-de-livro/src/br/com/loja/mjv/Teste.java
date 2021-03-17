@@ -22,6 +22,11 @@ public class Teste {
 		
 		tmail.enviarMsg(cliente1, "Teste de envio por Email funcionou");
 		
+		Cadastro artista = new Cadastro(2222, "Artista", 987654123L, "artista@artista.com");
+		
+
+		
+		
 		
 	}
 

@@ -45,13 +45,7 @@ public class Cadastro {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-	public class Editora {
-
-	}
-
-	class Artista {
-
-	}
-
+	
 }
+
+	

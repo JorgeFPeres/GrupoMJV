@@ -1,7 +1,7 @@
 package br.com.loja.mjv;
 
 public class Livro extends Produto {
-	
+
 	private Integer paginas;
 	private String autor;
 	private Cadastro editora;
@@ -10,7 +10,7 @@ public class Livro extends Produto {
 		super(id, codigoDeBarras, titulo, valorVenda);
 		this.paginas = paginas;
 		this.autor = autor;
-		
+
 	}
 
 	public Cadastro getEditora() {
@@ -19,9 +19,23 @@ public class Livro extends Produto {
 
 	public void setEditora(Cadastro editora) {
 		this.editora = editora;
-		
-	
 
-}
-	
+	}
+
+	public Integer getPaginas() {
+		return paginas;
+	}
+
+	public void setPaginas(Integer paginas) {
+		this.paginas = paginas;
+	}
+
+	public String getAutor() {
+		return autor;
+	}
+
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+
 }
