@@ -1,11 +1,12 @@
 package br.com.loja.mjv;
 
-public abstract class Cadastro {
+public class Cadastro {
 
 	private Integer id;
 	private String nome;
 	private Long telefone;
 	private String email;
+	
 	
 
 	public Cadastro(int id, String nome, Long telefone, String email) {
@@ -32,12 +33,12 @@ public abstract class Cadastro {
 		this.nome = nome;
 	}
 
-	public Long getTelegone() {
+	public Long getTelefone() {
 		return telefone;
 	}
 
-	public void setTelegone(Long telegone) {
-		this.telefone = telegone;
+	public void setTelefone(Long telefone) {
+		this.telefone = telefone;
 	}
 
 	public String getEmail() {
@@ -47,6 +48,14 @@ public abstract class Cadastro {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public class Editora{
+		
+	}
+	class Artista{
+		
+	}
+	
 
 	
 

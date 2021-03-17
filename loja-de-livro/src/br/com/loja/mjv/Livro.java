@@ -4,6 +4,7 @@ public class Livro extends Produto {
 	
 	private Integer paginas;
 	private String autor;
+	private Cadastro editora;
 
 	public Livro(int id, String codigoDeBarras, String titulo, double valorVenda, int paginas, String autor) {
 		super(id, codigoDeBarras, titulo, valorVenda);
@@ -12,4 +13,15 @@ public class Livro extends Produto {
 		
 	}
 
+	public Cadastro getEditora() {
+		return editora;
+	}
+
+	public void setEditora(Cadastro editora) {
+		this.editora = editora;
+		
+	
+
+}
+	
 }

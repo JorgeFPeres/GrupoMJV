@@ -1,12 +1,11 @@
 package br.com.loja.mjv;
 
-public abstract class Produto{
+public abstract class Produto {
 
 	private int id;
 	private String codigoDeBarras;
 	private String titulo;
 	private double valorVenda;
-	private editora editora;
 
 	public Produto(int id, String codigoDeBarras, String titulo, double valorVenda) {
 		this.id = id;
