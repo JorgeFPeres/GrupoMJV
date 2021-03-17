@@ -6,8 +6,6 @@ public class Cadastro {
 	private String nome;
 	private Long telefone;
 	private String email;
-	
-	
 
 	public Cadastro(int id, String nome, Long telefone, String email) {
 		this.id = id;
@@ -15,7 +13,6 @@ public class Cadastro {
 		this.telefone = telefone;
 		this.email = email;
 	}
-	
 
 	public int getId() {
 		return id;
@@ -48,15 +45,13 @@ public class Cadastro {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	public class Editora{
-		
-	}
-	class Artista{
-		
-	}
-	
 
-	
+	public class Editora {
+
+	}
+
+	class Artista {
+
+	}
 
 }
